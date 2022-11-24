@@ -1,0 +1,576 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Fim do codigo de formatação*/
+html,
+body {
+	/*para adicionar fonte*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	/*linha, offset horizontal, offset vertical, bluur*/
+	background-color: #FFC107;
+	height: 117px;
+	display: flex;
+	/*alinhamentos*/
+	align-items: center;
+	justify-content: center;
+	/* fim do alinhamentos*/
+}
+
+nav {
+	height: 48px;
+	background-color: #FFA000;
+	display: flex;
+	/*alinhamentos*/
+	align-items: center;
+	justify-content: center;
+	/* fim do alinhamentos*/
+}
+
+nav>a {
+	color: #FDFDFD;
+	text-decoration: none;
+	/* tirar sublinhado link*/
+	font-weight: 700;
+	/*Grossura*/
+	font-size: 20px;
+	/*Tamanho fonte*/
+	line-height: 24px;
+	/*Tamanho linha*/
+	text-transform: lowercase;
+	/*???*/
+	margin: 0px 28px;
+}
+
+#Hero-Header h2 {
+	color: #FDFDFD;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+	/*para sombrear textos*/
+	float: right;
+	/*para mover texto*/
+	margin: 150px 200px 50px 50px;
+	/*cima, direita, baixo, esquerda*/
+}
+
+.Receitas-da-Semana {
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.Receitas-da-Semana h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 67px;
+	color: #FFA000;
+	margin-bottom: 50px;
+}
+
+.Receitas-da-Semana article {
+	display: inline-block;
+	padding: 30px;
+}
+
+.Receitas-da-Semana article h3 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	margin: 10px 0;
+}
+
+.Receitas-da-Semana a {
+	background: #176902;
+	color: #FDFDFD;
+	text-decoration: none;
+	padding: 10px 15px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	margin: 20px 0;
+	display: inline-block;
+	/*para comandos inline*/
+}
+
+#Hero-Footer h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#Hero-Footer p {
+	font-size: 24px;
+	font-weight: 500;
+	width: 450px;
+	margin: 15px 0;
+
+}
+
+footer {
+	background-color: #FFC107;
+	color: #fff;
+	padding: 15px;
+}
+
+footer img {
+	vertical-align: middle;
+}
+
+#Todas {
+	text-align: left;
+	margin-left: 150px;
+}
+
+#Contatos {
+	background-image: url(/Assets/Img/image\ 3.png);
+	height: 405px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: none;
+}
+
+#Contatos h2 {
+	color: #FDFDFD;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+	float: left;
+	margin: 50px 900px 190px 120px;
+}
+
+form {
+	text-align: center;
+}
+
+.form p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 46px;
+	color: #FFA000;
+	margin: 50px 30px 100px;
+}
+
+#margin {
+	border: 1px solid#FFA000;
+	background: #FFFFFF;
+	border-radius: 20px;
+	width: 820px;
+	/* height: 766px; */
+}
+
+#Img-form {
+	display: flex;
+	justify-content: center;
+	margin: 70px 0;
+}
+
+#Img-form img {
+	margin: 0 15px;
+}
+
+.Formula {
+	margin: 25px 0;
+}
+
+.Formula input {
+	width: 50%;
+	padding: 5px 10px;
+	border: 1px solid#FFA000;
+	border-radius: 7px 7px 7px 7px;
+	margin-left: 0px;
+}
+
+#um {
+	width: 750px;
+	height: 50px;
+}
+
+#dois {
+	width: 750px;
+	height: 50px;
+}
+
+#tres {
+	width: 750px;
+	height: 240px;
+	padding: 5px 10px;
+	border: 1px solid#FFA000;
+	border-radius: 7px 7px 7px 7px;
+}
+
+#Enviar {
+	width: 160px;
+	height: 40px;
+	padding: 5px 10px;
+	background: #FFC107;
+	background-size: 200% 100%;
+	background-position: right bottom;
+	color: #fff;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	border-radius: 50px;
+	/*para curvar as pontas*/
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+
+.receitast {
+	text-align: left;
+	margin-left: 120px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 67px;
+	color: #FFA000;
+	margin-bottom: 0px;
+	padding: 100px 0px 50px 0px;
+}
+
+.RE img {
+	margin-left: 120px;
+}
+
+.RI {
+	display: flex;
+	margin: 20px 0px 50px 120px;
+}
+
+.RI p {
+	border: 1px solid #000;
+	border-radius: 50px;
+	border-color: #176902;
+	padding: 10px;
+	color: #176902
+}
+
+.RI p:first-child {
+	margin-right: 30px;
+}
+
+.LI {
+	margin-left: 120px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	color: gray;
+	line-height: 20px;
+
+}
+
+.RO {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	margin-left: 120px;
+	line-height: 30px;
+}
+
+.LU {
+	display: flex;
+	margin-left: 120px;
+	margin-top: 70px;
+	flex-direction: column;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	margin-left: 0px;
+}
+
+.RU {
+	margin-bottom: 20px;
+	margin-left: 120px;
+}
+
+.Lo {
+	margin-left: 120px;
+	width: 590px; /*ou max-width*/
+	height: 580px;
+}
+
+.Lo p:first-child {
+	margin-top: 70px;
+	margin-bottom: 50px;
+	flex-direction: column;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000;
+}
+
+.Lo p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	color: gray;
+	line-height: 24px;
+}
+
+.Mo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Ma {
+	margin-right: 190px;
+}
+
+.Ma span {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFA000;
+	margin-bottom: -30px;
+	display: inline-block;
+}
+
+.B {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 32px;
+	text-align: center;
+	color: #000000;
+}
+
+.B h3{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 10px;
+	margin-top: -10px;
+	padding: 10px 0;
+}
+
+.article :first-child{
+	margin-top: 0px;
+}
+
+.article{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+@media only screen and (max-width: 376px){
+	html{
+		width: 375px;
+	}
+	header{
+		width: 375px;
+	}
+	#Hero-Header h2{
+		font-size: 50px;
+		float: left;
+}
+
+#Hero-Footer{
+	display: flex;
+	flex-direction: column;
+}
+
+#Hero-Footer h2{
+	font-size: 50px;
+		float: left;
+		margin-left: -100px;
+}
+
+#Hero-Footer p{
+	margin-left: -100px;
+	width: 300px;
+
+}
+
+#To article {
+	padding: 0;
+}
+
+#Tu article{
+	padding: 0;
+	margin: 0 auto;
+}
+
+#Todas {
+	text-align: center;
+	margin-left: 0;
+	width: 375px;
+}
+#Contatos {
+	margin-left: -50px ;
+	text-align: center;
+}
+#Img-form{
+	width: 370px;
+	margin: 0 auto;
+}
+
+#Img-form img{
+	display: none;
+}
+.form{
+	width: 300px;
+}
+.Formula{
+	width: 300px;
+}
+}
+
