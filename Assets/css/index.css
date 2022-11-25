@@ -151,6 +151,8 @@ header {
 	align-items: center;
 	justify-content: center;
 	/* fim do alinhamentos*/
+	z-index: 1;
+	position: relative;
 }
 
 nav {
@@ -571,10 +573,47 @@ form {
 	display: none;
 }
 .form{
-	width: 300px;
+	text-align: center;
 }
 .Formula{
 	width: 300px;
+	margin: 0 auto;
+
 }
+#um {
+	max-width: 270px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#dois {
+	max-width: 270px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#tres {
+	max-width: 270px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#margin{
+	max-width: 340px;
+	margin-bottom: 20px;
+}
+
+#Enviar{
+	text-align: center;
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.reitast {}
+
 }
 
