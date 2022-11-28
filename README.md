@@ -12,6 +12,8 @@ Para acessar o projeto, confira a URL abaixo:
 
 [Base - Figma](https://fulldevdaniel.github.io/OMMA/index.html)
 
+## Técnologias
+
 <div align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html 5 logo"/>
 
